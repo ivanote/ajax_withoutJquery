@@ -43,7 +43,7 @@
   
   <button type="button" class="btn btn-primary" onclick="add_member()">agregar</button>
 
-    <button type="button" class="btn btn-primary" onclick="update_member()">editar</button>
+    <button id="buttonUpdate" disabled type="button" class="btn btn-primary" onclick="update_member()">editar</button>
  
 </form> 
 </div>

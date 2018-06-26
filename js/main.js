@@ -53,6 +53,12 @@ function member(id,nombres,apellidos,telefono,email ){
      document.getElementById('apellidos').value=apellidos;
      document.getElementById('email').value=email;
      document.getElementById('telefono').value=telefono;
+
+     //document.getElementById('buttonUpdate').disabled=true;
+     document.getElementById('buttonUpdate').removeAttribute('disabled');
+     //document.getElementById('buttonUpdate').setAttribute('disabled',false);
+     //document.getElementById('buttonUpdate').prop('disabled', false);
+     
    
 }
 
